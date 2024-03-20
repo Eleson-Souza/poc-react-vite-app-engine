@@ -7,5 +7,5 @@ Essa é uma POC para realizar deploy de uma aplicação React com Vite simples n
 3. Instale as dependências: `npm install`
 4. Gere a build da aplicação: `npm run build`
 5. Crie uma pasta no shell do GCP e faça o upload apenas do app.yaml e dist para ela. O app.yml contém configurações de runtime e outras pertinentes e o dist é a build/estáticos da aplicação.
-6. Após configurado o App Engine com o runtime Node.js, rode o comando: `gcloud app deploy`
+6. Após configurado o App Engine com o runtime Node.js, rode o seguinte comando na pasta criada: `gcloud app deploy`
 7. Pronto, será retornado a URL para acesso à aplicação online :)
